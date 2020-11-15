@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c5d1516-1b5d-4ec9-8096-fb0d7f0e933f" name="Default Changelist" comment="" />
+    <list default="true" id="8c5d1516-1b5d-4ec9-8096-fb0d7f0e933f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../20201113feladatok/out/production/20201113feladatok/CodingHours.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20201113feladatok/src/TwoNumbers.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20201113feladatok" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +56,9 @@
       <updated>1605428876194</updated>
       <workItem from="1605428877251" duration="314000" />
       <workItem from="1605429212755" duration="30000" />
+      <workItem from="1605437168699" duration="65000" />
+      <workItem from="1605437479889" duration="50000" />
+      <workItem from="1605437578743" duration="48000" />
     </task>
     <servers />
   </component>
@@ -66,10 +81,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-988" y="145" key="FileChooserDialogImpl" timestamp="1605429170467">
+    <state x="-1213" y="-41" key="#Project_Structure" timestamp="1605437205344">
       <screen x="-1440" y="-50" width="1440" height="860" />
     </state>
-    <state x="-988" y="145" key="FileChooserDialogImpl/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605429170467" />
+    <state x="-1213" y="-41" key="#Project_Structure/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605437205344" />
+    <state x="-988" y="145" key="FileChooserDialogImpl" timestamp="1605437625247">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state x="-988" y="145" key="FileChooserDialogImpl/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605437625247" />
     <state x="-1177" y="24" key="new project wizard" timestamp="1605429135785">
       <screen x="-1440" y="-50" width="1440" height="860" />
     </state>

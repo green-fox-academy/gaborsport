@@ -11,14 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5d1516-1b5d-4ec9-8096-fb0d7f0e933f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../20201113feladatok/out/production/20201113feladatok/CodingHours.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../new/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../new/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Batman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DefineBasicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20201116/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20201113feladatok/out/production/20201113feladatok/CodingHours.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20201113feladatok/out/production/20201113feladatok/CodingHours.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20201113feladatok/out/production/20201113feladatok/Tombok.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20201113feladatok/out/production/20201113feladatok/Tombok.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20201113feladatok/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20201113feladatok/src/CodingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20201113feladatok/src/Tombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20201113feladatok/src/Tombok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/20201115.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20201115.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,7 +50,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../20201113feladatok" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -45,6 +65,41 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.DefineBasicInfo">
+    <configuration name="Batman" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Batman" />
+      <module name="20201115" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefineBasicInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefineBasicInfo" />
+      <module name="20201115" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DefineBasicInfo" />
+        <item itemvalue="Application.Batman" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +114,8 @@
       <workItem from="1605437168699" duration="65000" />
       <workItem from="1605437479889" duration="50000" />
       <workItem from="1605437578743" duration="48000" />
+      <workItem from="1605542023024" duration="927000" />
+      <workItem from="1605543055787" duration="5112000" />
     </task>
     <servers />
   </component>
@@ -81,14 +138,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1213" y="-41" key="#Project_Structure" timestamp="1605437205344">
+    <state x="-1213" y="-41" key="#Project_Structure" timestamp="1605542565519">
       <screen x="-1440" y="-50" width="1440" height="860" />
     </state>
-    <state x="-1213" y="-41" key="#Project_Structure/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605437205344" />
-    <state x="-988" y="145" key="FileChooserDialogImpl" timestamp="1605437625247">
+    <state x="-1213" y="-41" key="#Project_Structure/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605542565519" />
+    <state x="-1318" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605547789901">
       <screen x="-1440" y="-50" width="1440" height="860" />
     </state>
-    <state x="-988" y="145" key="FileChooserDialogImpl/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605437625247" />
+    <state x="-1318" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605547789901" />
+    <state x="-988" y="145" key="FileChooserDialogImpl" timestamp="1605548041947">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state x="-988" y="145" key="FileChooserDialogImpl/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605548041947" />
+    <state width="1230" height="206" key="GridCell.Tab.0.bottom" timestamp="1605553005119">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state width="1230" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605553005119" />
+    <state width="1230" height="206" key="GridCell.Tab.0.center" timestamp="1605553005119">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state width="1230" height="206" key="GridCell.Tab.0.center/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605553005119" />
+    <state width="1230" height="206" key="GridCell.Tab.0.left" timestamp="1605553005118">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state width="1230" height="206" key="GridCell.Tab.0.left/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605553005118" />
+    <state width="1230" height="206" key="GridCell.Tab.0.right" timestamp="1605553005119">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state width="1230" height="206" key="GridCell.Tab.0.right/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605553005119" />
+    <state x="-1213" y="-41" key="SettingsEditor" timestamp="1605542623078">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state x="-1213" y="-41" key="SettingsEditor/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605542623078" />
+    <state x="-1083" y="-8" width="585" height="801" key="find.popup" timestamp="1605548057948">
+      <screen x="-1440" y="-50" width="1440" height="860" />
+    </state>
+    <state x="-1083" y="-8" width="585" height="801" key="find.popup/0.0.1600.860/-1440.-50.1440.860@-1440.-50.1440.860" timestamp="1605548057948" />
     <state x="-1177" y="24" key="new project wizard" timestamp="1605429135785">
       <screen x="-1440" y="-50" width="1440" height="860" />
     </state>

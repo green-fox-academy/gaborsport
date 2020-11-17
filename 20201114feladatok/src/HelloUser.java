@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class HelloUser {
     public static void main(String[] args) {
+
         // Módosítsd úgy ezt a programot, hogy a felhasználót üdvözölje
         // a Világ helyett.
         // A program kérje a felhasználó nevét
@@ -11,7 +12,6 @@ public class HelloUser {
 
         String userName = scanner.nextLine();
 
-        String userName = "Gábor";
         System.out.println("Hello " + userName + "!");
     }
 }

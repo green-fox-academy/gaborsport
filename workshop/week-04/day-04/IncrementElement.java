@@ -10,5 +10,10 @@ public class IncrementElement {
         System.out.println(numbers[2]);
         numbers[2] +=1;
         System.out.println(numbers[2]);
+        System.out.println(numbers);
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+
+        }
     }
 }

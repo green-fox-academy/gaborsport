@@ -1,4 +1,4 @@
-public class ArrasyUpload {
+public class ArraysUpload {
     public static void main(String[] args) {
 
         // tömb deklarálása és méretének megadása

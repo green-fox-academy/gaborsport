@@ -6,6 +6,6 @@ public class IWontCheatOnTheExams {
             System.out.println("Nem fogok csalni a vizsgán");
 
         }
-        
+
     }
 }

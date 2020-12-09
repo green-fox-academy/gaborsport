@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20201113feladatok/20201113feladatok.iml" filepath="$PROJECT_DIR$/20201113feladatok/20201113feladatok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20201114feladatok/20201114feladatok.iml" filepath="$PROJECT_DIR$/20201114feladatok/20201114feladatok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20201115/20201115.iml" filepath="$PROJECT_DIR$/20201115/20201115.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20201116/20201116.iml" filepath="$PROJECT_DIR$/20201116/20201116.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tanulás.iml" filepath="$PROJECT_DIR$/.idea/Tanulás.iml" />
+    </modules>
+  </component>
+</project>

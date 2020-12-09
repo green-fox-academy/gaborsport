@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../:\GreenFox\Tanulás\20201116\.idea/dataSources/
+/../../../../:\GreenFox\Tanulás\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

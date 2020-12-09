@@ -1,4 +1,11 @@
-2020.12.09.
+
+![Kép](../img/ntphazi.png)
+
+
+
+
+
+##2020.12.09.
 Workshop
 Készítsünk egy GPO-t a következő beállításokkal
 

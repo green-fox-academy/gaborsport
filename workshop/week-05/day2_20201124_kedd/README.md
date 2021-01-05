@@ -1,4 +1,4 @@
-## Workshop20201124_hétfő
+## Workshop20201124_kedd
 
 #### Nézzünk utána mi a különbség az ADSL és a bérelt vonal között? Melyiket használják enterprise környezetben és miért?
 Az ADSL (Asymmetric Digital Subscriber Line – vagyis „aszimmetrikus digitális előfizetői vonal”) egy kommunikációs technológia, ami a hagyományos modemeknél gyorsabb digitális adatátvitelt tesz lehetővé a csavart rézérpárú telefonkábelen.

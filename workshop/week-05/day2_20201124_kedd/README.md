@@ -54,7 +54,7 @@ How do I check my MX record?
  - netstat -lntup (kilistázza a listenereket)
  - netstat -antup (kilistázza a listenereket és az összes kapcsolatot)
 
-#### Milyen parancsot használnál, ha csak! a géped MAC címét szeretnéd kiiratni (Windows parancsosrban)
+#### Milyen parancsot használnál, ha csak! a géped MAC címét szeretnéd kiiratni (Windows parancssorban)
 getmac -v
 #### Mire szolgál a tracert parancs? Mikor és mire használnád?
 A tracert egy windows parancssori program. Feladata egy cél eszköz elérésének diagnosztizálása a közben érintett állomásokkal együtt. Ez utóbbi tulajdonsága miatt kifinomultabb mint a ping parancs. Hálózatos eszközökön traceroute néven ismert.

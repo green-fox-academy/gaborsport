@@ -1,5 +1,5 @@
-@echo off
-chcp 65001
+@echo off 
+
 
 for /f %%a in ("%date%") do set d=%%a
 echo. Mai dátum   : %date%

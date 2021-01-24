@@ -1,1 +1,5 @@
-echo Hello World!
+@echo off
+echo Hello világ!
+pause
+cls
+pause

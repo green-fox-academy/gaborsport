@@ -1,69 +1,36 @@
 
-### Hello Docker
-### Ha még nem tetted volna, telepítsd a Dockert a fenti videókban bemutatottak alapján.
-kép
-### Próbáld meg elindítani a hello-world nevű konténert a gépeden. Ez a konténer nem sok mindent tud, viszont abban segít, hogy megtapasztald milyen lépésekből áll egy Docker konténer futtatása. Emellett megbizonyosodhatsz abban, hogy helyesen van telepítve a Docker a gépedre.
-![Kép](../img/h)
-docker run hello-world
-### Mit tapasztaltál?
-#### Lfutott és kiírta ezt 
-kép
+# Műhelymunka
+## Első képem
+### Készíts egy új Dockerfile-t:
 
-### Egészen sok dolog történt már így is, amiket érdemes megfigyelni:
+### használt az ubuntu-t kiindulási képként (FROM ubuntu)
+### a konténer indulásakor írasd ki, hogy "Hello from the Dockerfile"
+### Készítsd el a képfájlt a fenti Dockerfile segítségével, és indítsd el a konténert próbaként.
+![Kép](../img/DockerRunElsokepem.png)
 
-Az egész folyamat úgy indult, hogy a Docker megnézte elérhető-e a hello-world nevű képfájl a gépeden, és nem találta.
-Emiatt képfájl letöltésével kezdte, majd kiírta, hogy
-Status: Downloaded newer image for hello-world:latest
-Ezután elindult a konténer, kiírta az üdvözlőszöveget, és látszólag vége lett a folyamatnak
-### Fut még a konténer?
-#### Nem , leállt. (docker ps -a)
-### Listázd az összes éppen futó konténert a gépeden! Mit látsz, fut még a hello-world?
-ua.
+## Dobozba zárt Python
+### Töltsd le és használd a linkelt Python forrásfájlt.
 
-### Soha le nem áll?
-### Indítsunk most el egy kicsivel összetettebb konténert! A getting-started szintén egy gyakorló képfájl, viszont
+### Készíts egy új Dockerfile-t:
 
-### docker run docker/getting-started
-Az előző konténerrel ellentétben ez nem állt le, hanem folyamatosan fut! 😱
+### használt az python-t kiindulási képként
+### Másold be a készülő konténerbe a fenti letöltött Python fájlt
+### A konténer indulásakor futtasd le az átmásolt Python fájlt
+### Ha mindent jól csináltál, akkor azt fogja kiírni, hogy "Hello from the Python file".
+![Kép](../img/DockerRunMasodikKepem.png)
+## Node.js app Dockerben
+### Ezen a linken egy egyszerű Node.js appot találsz, amelyet konténerizálnod kell.
 
-Tipp: a Ctrl + C kombinációval bármikor le tudod állítani a futást
+### Az app három fájlból áll, a package.json, package-lock.json és app.js, mindegyikre szükség van az app futtatásához, így töltsd le az összeset.
 
+### Készíts egy új Dockerfile-t:
 
+### használd a hivatalos Node.js Docker képfájlt kiindulásként
+### Másold be a készülő konténerbe a fenti letöltött fájlokat
+### Telepítsd a szükséges függőségeket az npm install paranccsal
+### A konténer indulásakor futtasd az appot a npm start utasítással
+### Az alkalmazás a 3000 portot használja, old meg, hogy a külvilág számára elérhető legyen ez a port.
 
-### Hogyan kapom vissza a parancssort
-### Szóval azt már látjuk, hogy vannak folyamatosan futó konténerek, de kérdés, hogy hogyan tudom elérni, hogy miközben a konténer fut, én tovább tudjam használni a parancssoromat?
-
-Itt jön a képbe a -d kapcsoló.
-
-### docker run -d docker/getting-started
-### Listázd ismét a futó konténereket. Ha minden jól ment, akkor most látnod kell az előbb elindított konténert futni.
-
-### Most állíts le minden futó konténert.
-
-### Kapcsolat a külvilággal
-### Az előbb említett docker/getting-started konténer a 80-as porton egy webszervert is üzemeltet, ezt viszont jelenleg nem tudjuk elérni, mivel alapértelmezetten az összes port el van rejtve előlünk.
-
-### Old meg, hogy a böngészőbe a http://localhost:80-at beírva elérjük a fenti konténer által szolgáltatott weboldalt!
-####  docker run -it -p 80:80 -v docker/getting-started
-
-### Belépés a konténerbe
-### Miután sikerült megfelelő módon elindítani a konténert, és ha minden jól megy, továbbra is fut, lépj be a konténerbe és nézz körül, milyen fájlok vannak!
-#### docker exec -it  54e /bin/sh
-kép
-
-### Ha rendszerüzemeltető szakirányon vagy (vagy csak simán kalandor), próbálj meg rájönni, hogy milyen Linux disztribúción fut a konténer!
-kép
-
-### Próbálj meg rájönni, hogy milyen webszerver alkalmazás fut!
-
-### Találd meg, hogy hol vannak a webalkalmazás fájljai!
-Adatok megőrzése
-Indítsd el egy adatbázis szervert (MySQL, SQL Server, vagy amit korábban is használtál) egy konténerben, úgy, hogy kívülről lehessen hozzá csatlakozni, ehhez természetesen keresned kell egy megfelelő képfájlt DockerHubon.
-Csatlakozz az így létrehozott adatbázishoz, és hozz létre néhány táblát és töltsd fel adatokkal!
-Állítsd le és töröld a konténert
-Megmaradtak az adatbázis táblákba írt adataid? Ha nem, akkor old meg újra a feladatot úgy, hogy ha indítasz egy új adatbázis konténert, akkor a korábbi adataid újra elérhetővé váljanak!
-
-További gyakorlás (angol tudás szükséges)
-Az alábbi oldalon nagyszerű interaktív gyakorlófeladatokat találsz, amelyekhez kell egy kis angol tudás. Alakítsatok a tanulócsoportotokban kisebb gyakorlócsapatokat úgy, hogy minden csapatban legalább egy ember beszéljen jól angolul és segítsétek egymást a haladásban:
-
-https://training.play-with-docker.com/ops-stage1/
+### Nézd meg a http://localhost:3000 oldalon munkád gyümölcsét!
+![Kép](../img/WhaleHelloThere.png)
+Konténerizálj minden dolgot!

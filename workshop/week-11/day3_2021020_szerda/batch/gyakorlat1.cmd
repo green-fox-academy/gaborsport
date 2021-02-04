@@ -1,20 +1,16 @@
 @echo off
-
 chcp 65001
 
-:ujrafitten 
 echo Helló Belló
 
 echo Kérjük adja meg a magasságát?
-set /P magasság= 
+set /P magassag = 
 
 echo Kérjük adja meg a testsúlyát?
-set /P testsúly=
+set /P testsuly = 
 
-set /A Bmi= %testsúly%*10000/%magasság%/%magasság%
+set /A Bmi= %testsuly%*10000/%magassag%/%magassag%
+
 echo %Bmi% 
 
-choice  /C:IN /M (I/N)
-if errorlevel 2 goto N
-goto ujrafitten
-:N
+rem set /A Bmi = %testsúly% * 10000/(%magasság:.=%*%magasság:.=%)

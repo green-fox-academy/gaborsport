@@ -1,3 +1,4 @@
+cd ..
 ## 2021.01.08. Pének
 
 ## Mondd el saját szavaiddal, hogy:

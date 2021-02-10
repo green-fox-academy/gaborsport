@@ -1,0 +1,12 @@
+services:
+  getting-started:
+    image: docker/getting-started
+    ports:
+      - "81:80"
+
+  Dockerfile:
+    image: nodehat
+    ports:
+      - "3000:3000"
+    
+

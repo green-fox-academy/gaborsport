@@ -59,10 +59,10 @@ Célszerű a felhasználókat bizonyos korlátok közé szorítani, hogy ne paza
  - Kiűríti a DNS-gyorsítótárat. A DNS-feloldó gyorsítótár kitűrítése elősegítheti a DNS-sel kapcsolatos problémák megoldását a Microsoft Windows 10 rendszerben.
  - Az ipconfig /flushdns a DNS-címet frissíti, ami hálózati problémák megoldásakor is jól jön.
 
-####Mi a különsbség a Forward és a Reverse Lookup Zone között?
+#### Mi a különsbség a Forward és a Reverse Lookup Zone között?
  - Forward lookup zone (címkeresési zóna) - Domain névből IP címet ad vissza - A
  - Reverse lookup zone (névkeresési zóna) - IP címből Domain nevet (host nevet) adja vissza - PTR
-####Az Active Directory telepítésekor alapértelmezés szerint melyik két csoportházirend- objektum jön létre ?
+#### Az Active Directory telepítésekor alapértelmezés szerint melyik két csoportházirend- objektum jön létre ?
 Az Active Directory telepítésekor alapértelmezés szerint két nem helyi csoportházirend-objektum jön létre:
 1. A Default Domain Policy (Alapértelmezett tartományi házirend) a tartományhoz van kötve, és házirend-öröklődés révén a tartományba tartozó összes felhasználóra és számítógépre (köztük a tartományvezérlő számítógépekre is) érvényes.
 2. A Default Domain Controllers Policy (Alapértelmezett tartományvezérlői házirend) gyárilag a Domain Controllers (Tartományvezérlők) nevű szervezeti egységhez van csatolva, és jellemzően csak a tartományvezérlőkre van hatással, mivel a tartományvezérlők számítógépfiókjait általában ezen a helyen tároljuk (hacsak ki nem vesszük innen valami nagyon alapos okból).

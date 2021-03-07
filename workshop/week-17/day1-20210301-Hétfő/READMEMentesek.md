@@ -21,7 +21,7 @@
 
 ![kép](../img/Kepernyokep2021-03-07185705.png)
 ### Mindeki végezzen számításokat arra, hogy 100GB, 200GB, 500GB, 1TB, 2TB adat különböző médiákon (szalag, LAN, SAN) mennyi ideig tartana lementeni!
-####https://wintelguy.com/transfertimecalc.pl/?F1=100&unf=98&R1=100&unr=611 
+#### https://wintelguy.com/transfertimecalc.pl/?F1=100&unf=98&R1=100&unr=611 
 
 ### A délutáni gyakorlatok alatt keress az interneten mentéssel kapcsolatos hardver megoldásokat, szalagos meghajtókat, szalagkönyvtárakat és virtuális szalagos megoldásokat!
 #### http://www.invigor.hu/szolgaltatasaink/hardveres-megoldasok/ 

@@ -142,4 +142,4 @@
     LEFT JOIN (bal)
     RIGHT JOIN (jobb)
 
-####Tudnunk kell azt is hogy az összekapcsoláskor megadhatunk az ON paraméter után egy feltételt is, ami alapján összeválogatja a sorokat. Ha viszont nem adunk meg ilyen feltételt, akkor minden sort minden sorral össze fog párosítani, ez két kétsoros táblánál 4 sort, két háromsoros táblánál 9 sort, két négysoros táblánál 16 sort ad vissza. Tehát a sorok száma a két tábla sorainak a számának a szorzatával egyezik meg.
+#### Tudnunk kell azt is hogy az összekapcsoláskor megadhatunk az ON paraméter után egy feltételt is, ami alapján összeválogatja a sorokat. Ha viszont nem adunk meg ilyen feltételt, akkor minden sort minden sorral össze fog párosítani, ez két kétsoros táblánál 4 sort, két háromsoros táblánál 9 sort, két négysoros táblánál 16 sort ad vissza. Tehát a sorok száma a két tábla sorainak a számának a szorzatával egyezik meg.
